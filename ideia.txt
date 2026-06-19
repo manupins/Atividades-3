@@ -1,0 +1,8 @@
+Projeto do site maneiro
+-conceito
+-banner mostrando algo
+-seção boas vindas
+-fabricantes: Lenovo
+-as informações 
+-nav menu: produto, home, sobre nós, entre men
+-footer ou roda pé
