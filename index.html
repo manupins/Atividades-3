@@ -3,106 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>NewJeans Store</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+
     <header>
-    <img src="logo.jpg.png" alt="P0" width="250" height="100">
-    <a>Welcome</a>
-    <a>Producer</a>
-    <a>Products</a>
-    <a>Comparation</a>
-    <button1>BUY NOW</button1>
+        <img src="logo.jpg.png" alt="Logo" class="logo">
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#welcome">Welcome</a>
+            <a href="#producer">Producer</a>
+            <a href="#products">Products</a>
+            <a href="#about">About</a>
+        </nav>
+
+        <button class="buy-btn">BUY NOW</button>
     </header>
-    
-    <section class="hero">
-       <h1>The album 'Get Up' is out now!</h1>
-       <button>Enjoy</button>
-      
-         <img  class="getup" 
-         src="Design sem nome.jpg" alt="P0" >
-     
-    </section>
-       
-    <section class="bemvindo"><h1>Welcome to the New Jeans Store!</h1>
-        <p>"Look, it's a new me
-Switched it up, who's this?
-우릴 봐 NewJeans"</p>
-        <img scr="" alt="">
+
+    <section id="home" class="page hero">
+
+        <h1>The album 'Get Up' is out now!</h1>
+
+        <a href="#products">
+            <button>Enjoy</button>
+        </a>
+
+        <img
+            class="getup"
+            src="Design sem nome.jpg"
+            alt="Get Up Album">
+
     </section>
 
-    <section class="fabricantes">
+
+    <section id="welcome" class="page bemvindo">
+
+        <h1>Welcome to the NewJeans Store!</h1>
+
+        <p>
+            "Look, it's a new me<br>
+            Switched it up, who's this?<br>
+            우릴 봐 NewJeans"
+        </p>
+
+    </section>
+
+    <!-- PRODUCER -->
+    <section id="producer" class="page fabricantes">
+
         <h1>ADOR</h1>
-        <p>NewJeans' albums are produced by ADOR (All Doors One Room),<br> 
-            an independent music label that is part of HYBE Corporation.
-</p>
+
+        <p>
+            NewJeans' albums are produced by
+            ADOR (All Doors One Room),
+            an independent music label
+            that is part of HYBE Corporation.
+        </p>
+
     </section>
 
-    <section class="produtos"><h1></h1>
-    <div class="grid">
-        <div class="card">
-             <img src="https://i.pinimg.com/736x/a9/86/ca/a986ca775cd15a163bbedaa7617924ba.jpg" alt="P1">
-            <h3 class="nomeProduto">Attetion Album</h3>
-            <p class="descricao">$50</p>
-        </div>
-         <div class="card">
-             <img src="https://i.pinimg.com/736x/4d/fa/17/4dfa17a1bdaa5377c7fc3a1b5dd165b2.jpg" alt="P2">
-            <h3 class="nomeProduto">SuperNatural Album </h3>
-            <p class="descricao">$70</p>
-        </div>  
-        <div class="card">
-             <img src="https://i.pinimg.com/736x/e9/d0/d6/e9d0d625bcfa1ad67590f164f821f65a.jpg" alt="P3">
-            <h3 class="nomeProduto">New jeans PhotoCards</h3>
-            <p class="descricao">Supernatural era <br> $15</p>
-        </div>  
-        <div class="card">
-             <img src="https://i.pinimg.com/736x/1f/7f/da/1f7fdaebd7ab69d4d3c9634673a8b7b5.jpg" alt="P4">
-            <h3 class="nomeProduto">Get up Vinil Album</h3>
-            <p class="descricao">$30</p>
-        </div>  
-        <div class="card">
-             <img src="https://i.pinimg.com/1200x/a2/fd/65/a2fd6575b3f1386424475fb11657f2e9.jpg" alt="P5">
-            <h3 class="nomeProduto">New jeans T-shirt</h3>
-            <p class="descricao">Atettion era <br> $20</p>
-        </div>
-          <div class="card">
-             <img src="https://i.pinimg.com/736x/ef/5e/1f/ef5e1fc3345f8ec907d69d9d5bca5bfd.jpg" alt="P6">
-            <h3 class="nomeProduto">New Jeans EcoBags </h3>
-            <p class="descricao">Special edition <br> $15</p>
-        </div>
-    </div>
-    </section>
 
-    <section class="sobre">
-        <h1>Who is New jeans?</h1>
-        <p>NewJeans is a South Korean girl group formed by ADOR, a subsidiary of Hybe Corporation. <br>
-            The group debuted with five members: Minji, Hanni, Danielle, Haerin, and Hyein.</p>
-        <div class="conteudo">
-            <div class="fotos">
-                <img src="https://i.pinimg.com/736x/3a/f3/2c/3af32cf5ede54e6292b201d847a83c09.jpg" alt="I1">
-                <img src="https://i.pinimg.com/736x/ee/f4/10/eef4102f531eaa59d765655c4400c069.jpg" alt="I2">
-                 <img src="https://i.pinimg.com/1200x/bb/2b/fa/bb2bfac829b5af27b1636e20c597ba82.jpg" alt="I3">
+    <section id="products" class="page produtos">
+
+        <h1>Products</h1>
+
+        <div class="grid">
+
+            <div class="card">
+                <img src="https://i.pinimg.com/736x/a9/86/ca/a986ca775cd15a163bbedaa7617924ba.jpg">
+                <h3>Attention Album</h3>
+                <p>$50</p>
             </div>
-            <p>New Jeans Awards
-                <ul>
-                    <li>Golden Disc Awards</li>
-                    <li>Billboard Music Awards</li>
-                    <li>MTV Video Music Awards (VMAs)</li>
-                    <li>Melon Music Awards (MMA)</li> 
-                    <li>MAMA Awards</li>
-                    <li>Asia Artist Awards (AAA)</li>
-                </ul>
-                Dito isso, compre os albums do new jeans!<br> 
-                elas passam fome e se encontram no porão da Hybe;(
-            </p>
+
+            <div class="card">
+                <img src="https://i.pinimg.com/736x/4d/fa/17/4dfa17a1bdaa5377c7fc3a1b5dd165b2.jpg">
+                <h3>Supernatural Album</h3>
+                <p>$70</p>
+            </div>
+
+            <div class="card">
+                <img src="https://i.pinimg.com/736x/e9/d0/d6/e9d0d625bcfa1ad67590f164f821f65a.jpg">
+                <h3>NewJeans Photocards</h3>
+                <p>$15</p>
+            </div>
+
+            <div class="card">
+                <img src="https://i.pinimg.com/736x/1f/7f/da/1f7fdaebd7ab69d4d3c9634673a8b7b5.jpg">
+                <h3>Get Up Vinyl</h3>
+                <p>$30</p>
+            </div>
+
+            <div class="card">
+                <img src="https://i.pinimg.com/1200x/a2/fd/65/a2fd6575b3f1386424475fb11657f2e9.jpg">
+                <h3>NewJeans T-Shirt</h3>
+                <p>$20</p>
+            </div>
+
+            <div class="card">
+                <img src="https://i.pinimg.com/736x/ef/5e/1f/ef5e1fc3345f8ec907d69d9d5bca5bfd.jpg">
+                <h3>Eco Bag</h3>
+                <p>$15</p>
+            </div>
+
         </div>
+
     </section>
+
+    <section id="about" class="page sobre">
+
+        <h1>Who is NewJeans?</h1>
+
+        <p>
+            NewJeans is a South Korean girl group
+            formed by ADOR, a subsidiary of HYBE.
+        </p>
+
+        <div class="fotos">
+
+            <img src="https://i.pinimg.com/736x/3a/f3/2c/3af32cf5ede54e6292b201d847a83c09.jpg">
+
+            <img src="https://i.pinimg.com/736x/ee/f4/10/eef4102f531eaa59d765655c4400c069.jpg">
+
+            <img src="https://i.pinimg.com/1200x/bb/2b/fa/bb2bfac829b5af27b1636e20c597ba82.jpg">
+
+        </div>
+
+        <ul>
+            <li>Golden Disc Awards</li>
+            <li>Billboard Music Awards</li>
+            <li>MTV Video Music Awards</li>
+            <li>Melon Music Awards</li>
+            <li>MAMA Awards</li>
+            <li>Asia Artist Awards</li>
+        </ul>
+
+    </section>
+
     <footer>
-        <p>@New Jeans by Ador entertainament</p>
+        <p>@NewJeans by ADOR Entertainment</p>
     </footer>
 
-
-    
 </body>
 </html>
